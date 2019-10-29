@@ -1,0 +1,7 @@
+POST https://calm-sea-54412.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+  "name": "Adam Sandler",
+  "number": "111-22-33333"
+}
