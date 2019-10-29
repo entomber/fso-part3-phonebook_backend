@@ -3,6 +3,8 @@ const app = express()
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
 
+app.use(express.static('build'))
+
 app.use(bodyParser.json())
 
 // configure morgan to show data sent in HTTP POST requests
