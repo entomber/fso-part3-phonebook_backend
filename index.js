@@ -37,7 +37,7 @@ app.get('/api/persons', (request, response) => {
 
 app.post('/api/persons', (request, response, next) => {
   const { name, number } = request.body
-  
+
   const person = new Person({ name, number })
 
   person.save()
