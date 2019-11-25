@@ -2,6 +2,6 @@ POST https://calm-sea-54412.herokuapp.com/api/persons
 Content-Type: application/json
 
 {
-  "name": "Arto Hellas",
-  "number": "123-3211233"
+  "name": "Arto",
+  "number": "123-323"
 }

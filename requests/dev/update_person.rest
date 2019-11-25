@@ -1,7 +1,7 @@
-PUT http://localhost:3001/api/persons/5dc0b99cad2ace2e90c1bd55
+PUT https://calm-sea-54412.herokuapp.com/api/persons/5dc0b99cad2ace2e90c1bd55
 Content-Type: application/json
 
 {
   "name": "Annab",
-  "number": "11-3432432413"
+  "number": "11-9999-9999"
 }
